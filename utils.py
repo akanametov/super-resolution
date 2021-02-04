@@ -67,8 +67,8 @@ class ModelBasedLoss(nn.Module):
 
 class GeneratorLoss(nn.Module):
     '''Generator loss'''
-    def __init__(self, alpha=1, beta=1.5,
-                 gamma=100, model='vgg19', device='cuda:0'):
+    def __init__(self, alpha=0.001, beta=0.006,
+                 gamma=1, model='vgg19', device='cuda:0'):
         super().__init__()
         self.bce = AdvLoss(alpha)
         self.fb_mse = ModelBasedLoss(beta, model, device)
@@ -79,7 +79,7 @@ class GeneratorLoss(nn.Module):
         
         loss = (self.bce(fake_pred, fake_target)\
               + self.fb_mse(fake, real)\
-              + self.mse(fake, real))/3
+              + self.mse(fake, real))#/3
         return loss
 
 ######################################
@@ -88,7 +88,7 @@ class GeneratorLoss(nn.Module):
 
 class DiscriminatorLoss(nn.Module):
     '''Discriminator loss'''
-    def __init__(self, alpha=2):
+    def __init__(self, alpha=1):
         super().__init__()
         self.bce = AdvLoss(alpha)
         
