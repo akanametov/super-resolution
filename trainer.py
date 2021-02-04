@@ -51,7 +51,7 @@ class GeneratorWarmUp():
                 
             self.losses.append(loss/len(dataloader))
             clear_output(wait=True)
-            print('Epoch {}: Generator`s ({}) loss: {:.5f}'.format(epoch, name, self.losses[-1]))
+            print('Epoch {}: Generator`s ({}) loss: {:.5f}'.format(epoch+1, name, self.losses[-1]))
             showImage(2*x - 1., 'Input Low-Resolution Image')
             showImage(fake.to(real.dtype), 'Generated High-Resolution Image')
             showImage(real, 'Real High-Resolution Image')
@@ -112,7 +112,7 @@ class Trainer():
             d_losses.append(de_loss/len(dataloader))
             
             clear_output(wait=True)
-            print(f':::::::::::::::::  Epoch {epoch}  :::::::::::::::::')
+            print(f':::::::::::::::::  Epoch {epoch+1}  :::::::::::::::::')
             print(f'::::::::::: Generator loss: {g_losses[-1]:.3f} :::::::::::')
             print(f'::::::::: Discriminator loss: {d_losses[-1]:.3f} :::::::::')
             showImage(2*x - 1., 'Input Low-Resolution Image')
