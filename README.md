@@ -50,6 +50,10 @@ The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake p
 
 ![Discriminator loss](images/d_loss.png)
 
+**Training after 100 epochs**
+
+![Training results](images/train.png)
+
 ## License
 
 The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
