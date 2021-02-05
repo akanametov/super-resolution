@@ -27,20 +27,20 @@ This document is for the latest Aimeos TYPO3 **20.10 release and later**.
 - LTS release: 20.10 (TYPO3 9/10 LTS)
 - Beta release: 2021.01 (TYPO3 9/10 LTS)
 
-### Training
+## Training
 
-#### Database
+### Database
 
 The Super-Resolution GAN was trained on **STL10** dataset from `torchvision.dataset`.
 
-#### WarmUp of Generator
+### WarmUp of Generator
 
 Before to train both **Generator** and **Discriminator** we should pretrain our **Ganarator** on
 dataset with **Pixel-wise Loss** function.
 
 ![](images/g_loss_warmup.png)
 
-#### Training with Discriminator
+### Training with Discriminator
 
 After **Generator** warmup we train booth **Generator** and **Discriminator** with their loss functions.
 The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake prediction and target*),
