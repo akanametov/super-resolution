@@ -50,7 +50,7 @@ The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake p
 
 ![Discriminator loss](images/d_loss.png)
 
-**Training after 100 epochs**
+**After 100 epochs of training:**
 
 <a>
     <img src="images/train.png" align="center" height="400px" width="400px"/>
@@ -58,13 +58,8 @@ The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake p
 
 ## License
 
-The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
-license and is available for free.
+The **SR-GAN** is licensed under MIT.
 
 ## Links
 
-* [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
-* [Documentation](https://aimeos.org/docs/TYPO3)
-* [Forum](https://aimeos.org/help/typo3-extension-f16/)
-* [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
-* [Source code](https://github.com/aimeos/aimeos-typo3)
+* [Super-Resolution GAN](https://arxiv.org/abs/1609.04802)
