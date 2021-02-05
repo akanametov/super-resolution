@@ -40,7 +40,15 @@ dataset with **Pixel-wise Loss** function.
 
 ![](images/g_loss_warmup.png)
 
-For new TYPO3 installations, there's a 1-click [Aimeos distribution](https://typo3.org/extensions/repository/view/aimeos_dist) available too. Choose the Aimeos distribution from the list of available distributions in the Extension Manager and you will get a completely set up shop system including demo data for a quick start.
+#### Training with Discriminator
+
+After **Generator** warmup we train booth **Generator** and **Discriminator** with their loss functions.
+The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake prediction and target*),
+**Model Based loss**(feature based MSE loss between *fake and real images*) and **Pixel-wise loss**(MSE loss between *fake and real images*).
+
+![Generator loss](images/g_loss.png)
+
+![Discriminator loss](images/d_loss.png)
 
 ## License
 
