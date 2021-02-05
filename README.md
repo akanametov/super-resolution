@@ -31,7 +31,12 @@ This document is for the latest Aimeos TYPO3 **20.10 release and later**.
 
 #### Database
 
-If you want to install Aimeos into your existing TYPO3 installation, the [Aimeos extension from the TER](https://typo3.org/extensions/repository/view/aimeos) is recommended. You can download and install it directly from the Extension Manager of your TYPO3 instance.
+The Super-Resolution GAN was trained on **STL10** dataset from `torchvision.dataset`.
+
+#### WarmUp of Generator
+
+Before to train both **Generator** and **Discriminator** we should pretrain our **Ganarator** on
+dataset with **Pixel-wise Loss** function.
 
 ![](images/)
 
