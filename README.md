@@ -13,10 +13,10 @@ the output image the network is trained on three different loss functions.
 
 - [Evaluation](#eval)
     - [TER](#typo3-extension-repository)
-    - [Composer](#composer)
 - [Training](#train)
-    - [Extension](#extension)
     - [Database](#database)
+    - [WarmUp of Generator](#warmup)
+    - [Training with Discriminator](#train)
 - [License](#license)
 - [Links](#links)
 
@@ -29,7 +29,11 @@ This document is for the latest Aimeos TYPO3 **20.10 release and later**.
 
 ### Training
 
+#### Database
+
 If you want to install Aimeos into your existing TYPO3 installation, the [Aimeos extension from the TER](https://typo3.org/extensions/repository/view/aimeos) is recommended. You can download and install it directly from the Extension Manager of your TYPO3 instance.
+
+![](images/)
 
 For new TYPO3 installations, there's a 1-click [Aimeos distribution](https://typo3.org/extensions/repository/view/aimeos_dist) available too. Choose the Aimeos distribution from the list of available distributions in the Extension Manager and you will get a completely set up shop system including demo data for a quick start.
 
