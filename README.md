@@ -38,7 +38,7 @@ The Super-Resolution GAN was trained on **STL10** dataset from `torchvision.data
 Before to train both **Generator** and **Discriminator** we should pretrain our **Ganarator** on
 dataset with **Pixel-wise Loss** function.
 
-![](images/)
+![](images/g_loss_warmup.png)
 
 For new TYPO3 installations, there's a 1-click [Aimeos distribution](https://typo3.org/extensions/repository/view/aimeos_dist) available too. Choose the Aimeos distribution from the list of available distributions in the Extension Manager and you will get a completely set up shop system including demo data for a quick start.
 
