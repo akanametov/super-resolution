@@ -52,6 +52,10 @@ The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake p
 
 **Training after 100 epochs**
 
+<a href="https://aimeos.org/">
+    <img src="images/train.png" alt="Aimeos logo" align="right" height="400px" width="300px"/>
+</a>
+
 ![Training results](images/train.png)
 
 ## License
