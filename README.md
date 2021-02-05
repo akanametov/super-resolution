@@ -3,26 +3,20 @@ Super-Resolution GAN
 
 :star: Star this project on GitHub — it helps!
 
-[Super-Resolution GAN](.) is THE professional, full-featured and
-high performance e-commerce extension for TYPO3!  You can install it in your
-existing TYPO3 web site within 5 minutes and can adapt, extend, overwrite
-and customize anything to your needs.
+[Super-Resolution GAN](https://arxiv.org/abs/1609.04802) is one of the best examples in GAN's application. It allows
+to imporove the quality of input low-resolution image. As **Generator** this GAN uses
+**SRResNet** (Super-Resolution Residual Network). In order to provide better quality of
+the output image the network is trained on three different loss functions.
 
-[![Aimeos TYPO3 demo](https://aimeos.org/fileadmin/user_upload/typo3-demo.jpg)](http://typo3.demo.aimeos.org/)
 
 ## Table of content
 
-- [Installation](#installation)
+- [Evaluation](#eval)
     - [TER](#typo3-extension-repository)
     - [Composer](#composer)
-- [TYPO3 setup](#typo3-setup)
+- [Training](#train)
     - [Extension](#extension)
     - [Database](#database)
-- [Page setup](#page-setup)
-    - [Upload the page tree file](#upload-the-page-tree-file)
-    - [Go to the import view](#go-to-the-import-view)
-    - [Import the page tree](#import-the-page-tree)
-    - [SEO-friendly URLs](#seo-friendly-urls)
 - [License](#license)
 - [Links](#links)
 
