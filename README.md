@@ -64,4 +64,4 @@ The **SR-GAN** is licensed under MIT.
 
 ## Links
 
-* [Super-Resolution GAN](https://arxiv.org/abs/1609.04802)
+* [Super-Resolution GAN (arXiv article)](https://arxiv.org/abs/1609.04802)
