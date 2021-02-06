@@ -32,7 +32,7 @@ class Predictor():
         
     def predict(self, dataloader, path='test'):
         names = dataloader.dataset.images
-        for i, img in enumerate(dataloader):
+        for i, img in enumerate(tqdm(dataloader)):
             hd_img_data = self.model(img)
             hd_img = self.transform(hd_img_data)
             hd_img.save(path+'/hd_'+names[i])
