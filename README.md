@@ -12,7 +12,6 @@ the output image the network is trained on three different loss functions.
 ## Table of content
 
 - [Evaluation](#eval)
-    - [TER](#typo3-extension-repository)
 - [Training](#train)
     - [Database](#database)
     - [WarmUp of Generator](#warmup)
@@ -22,10 +21,8 @@ the output image the network is trained on three different loss functions.
 
 ## Evaluation
 
-This document is for the latest Aimeos TYPO3 **20.10 release and later**.
-
-- LTS release: 20.10 (TYPO3 9/10 LTS)
-- Beta release: 2021.01 (TYPO3 9/10 LTS)
+You can evaluate pretrained **Super-Resolution GAN** on your images.
+To do this use `eval.py`.
 
 ## Training
 
