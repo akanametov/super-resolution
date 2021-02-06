@@ -60,7 +60,7 @@ See [Super-Resolution](https://github.com/akanametov/SuperResolution/blob/main/d
 
 ## License
 
-The **SR-GAN** is licensed under MIT.
+This project is licensed under MIT.
 
 ## Links
 
