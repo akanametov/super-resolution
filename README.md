@@ -40,7 +40,7 @@ dataset with **Pixel-wise Loss** function.
 
 ![](images/g_loss_warmup.png)
 
-See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/SuperResolution/tree/main/demo) for **Generator**'s warmup.
+See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/SuperResolution/blob/main/demo/SuperResolution%5BGeneratorWarmUp%5D.ipynb) for **Generator**'s warmup.
 
 ### Training with Discriminator
 
@@ -59,7 +59,7 @@ The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake p
 </a>
 
 
-See [Super-Resolution](https://github.com/akanametov/SuperResolution/tree/main/demo) for **SR-GAN**'s training.
+See [Super-Resolution](https://github.com/akanametov/SuperResolution/blob/main/demo/SuperResolution.ipynb) for **SR-GAN**'s training.
 
 ## License
 
