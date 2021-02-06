@@ -40,6 +40,8 @@ dataset with **Pixel-wise Loss** function.
 
 ![](images/g_loss_warmup.png)
 
+See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/SuperResolution/tree/main/demo) for **Generator**'s warmup.
+
 ### Training with Discriminator
 
 After **Generator** warmup we train booth **Generator** and **Discriminator** with their loss functions.
@@ -55,6 +57,9 @@ The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake p
 <a>
     <img src="images/train.png" align="center" height="400px" width="400px"/>
 </a>
+
+
+See [Super-Resolution](https://github.com/akanametov/SuperResolution/tree/main/demo) for **SR-GAN**'s training.
 
 ## License
 
